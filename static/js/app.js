@@ -60,19 +60,19 @@ const optionChanged = id => {
 
 
 
-
+        console.log(meta)
 
         // Gauge
         var data = [
             {
               domain: { x: [0, 1], y: [0, 1] },
-              value: 5,
+              value: meta.wfreq,
               title: { text: "<b>Belly Button Washing Frequency</b><br>Scrubs per Week" },
               type: "indicator",
               mode: "gauge+number",
               gauge: { 
-                axis: { range: [0,10], tickmode: "linear", tick0: 1, dtick: 1 },
-                bar: {color: "black"},
+                axis: { range: [0,9], tickmode: "linear", tick0: 1, dtick: 1 },
+                bar: {color: "red"},
                 steps: [
                     {range: [0, 1], color: "rgba(255, 255, 255, 0)"},
                     {range: [1, 2], color: "rgba(232, 226, 202, .5)"},
@@ -83,7 +83,7 @@ const optionChanged = id => {
                     {range: [6, 7], color: "rgba(142, 178, 35 , .5)"},
                     {range: [7, 8], color:  "rgba(110, 154, 22, .5)"},
                     {range: [8, 9], color: "rgba(50, 143, 10, 0.5)"},
-                    {range: [9, 10], color: "rgba(14, 127, 0, .5)"},
+                  
             ]
 
             
