@@ -5,10 +5,10 @@ This project is a web-based dashboard that allows users to explore belly button 
 ## Introduction
 The Belly Button Biodiversity Dashboard is built using JavaScript, D3.js, and Plotly.js libraries. It fetches data from an external JSON file containing information about bacterial samples collected from participants' belly buttons. The dashboard consists of multiple interactive charts, including:
 
-. Demographic Information: Displays metadata information about the selected participant, such as age, gender, and ethnicity.
-. Bar Chart: Visualizes the top 10 operational taxonomic units (OTUs) found in the selected participant's belly button.
-. Bubble Chart: Illustrates the distribution of bacterial samples based on OTU IDs and sample values.
-. Gauge Chart: Represents the belly button washing frequency of the selected participant.
+- Demographic Information: Displays metadata information about the selected participant, such as age, gender, and ethnicity.
+- Bar Chart: Visualizes the top 10 operational taxonomic units (OTUs) found in the selected participant's belly button.
+- Bubble Chart: Illustrates the distribution of bacterial samples based on OTU IDs and sample values.
+- Gauge Chart: Represents the belly button washing frequency of the selected participant.
 
 ## Features
 - Dynamic dropdown menu for selecting participants.
@@ -20,8 +20,8 @@ The Belly Button Biodiversity Dashboard is built using JavaScript, D3.js, and Pl
 ## Prerequisites
 Before running the project, make sure you have the following software installed:
 
-. Web browser (e.g., Google Chrome, Mozilla Firefox)
-. Code editor (e.g., Visual Studio Code, Sublime Text)
+- Web browser (e.g., Google Chrome, Mozilla Firefox)
+- Code editor (e.g., Visual Studio Code, Sublime Text)
 
 ## Installation
 1. Clone the repository to your local machine.
@@ -29,6 +29,6 @@ Before running the project, make sure you have the following software installed:
 3. Open the index.html file in your web browser or set up a local development server to serve the files.
 
 ## Resources:
-. Plotly
-. D3.js Documentation
-. JSON Data
+- Plotly
+- D3.js Documentation
+- JSON Data
